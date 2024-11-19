@@ -1,0 +1,12 @@
+[package]
+name = "typus_token"
+version = "1.0.0"
+edition = "2024.beta"
+published-at = "0xf82dc05634970553615eef6112a1ac4fb7bf10272bf6cbe0f80ef44a6c489385"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+typus_token = "0xf82dc05634970553615eef6112a1ac4fb7bf10272bf6cbe0f80ef44a6c489385"
+# upgrade_cap = "0x4c58435b67c40a419c567ac789295ea2055586d6d59174920ac139eece7f8d11"
